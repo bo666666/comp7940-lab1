@@ -21,7 +21,7 @@ def main():
    # on different commands - answer in Telegram
     dispatcher.add_handler(CommandHandler("add", add))
     dispatcher.add_handler(CommandHandler("help", help_command))
-    dispatcher.add_handler(CommandHandler("hello Kevin", hello_Kevin))
+    dispatcher.add_handler(CommandHandler("helloKevin", hello_Kevin))
  # To start the bot:
     updater.start_polling()
     updater.idle()
